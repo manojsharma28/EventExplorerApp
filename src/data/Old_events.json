@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Service started",
+    "date": "2026-05-25 09:12",
+    "source": "ServiceA",
+    "severity": "normal",
+    "description": "The service initialized successfully."
+  },
+  {
+    "id": "2",
+    "title": "High memory usage",
+    "date": "2026-05-25 10:05",
+    "source": "ServiceB",
+    "severity": "warning",
+    "description": "Memory usage exceeded 80% for 2 minutes."
+  },
+  {
+    "id": "3",
+    "title": "Service crash",
+    "date": "2026-05-25 11:20",
+    "source": "ServiceC",
+    "severity": "critical",
+    "description": "Unhandled exception caused process exit."
+  }
+]

@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build output
+web-build/
+build/
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+
+# Android
+android/.gradle/
+android/app/**/*.keystore
+android/app/**/*.jks
+android/app/*.keystore
+android/app/*.jks
+
+# Xcode
+ios/DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Metro
+.expo/
+.expo-shared/
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo

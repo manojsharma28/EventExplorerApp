@@ -1,0 +1,25 @@
+{
+  "name": "EventExplorerRN",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "web": "expo start --web",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "~48.0.21",
+    "expo-splash-screen": "~0.18.2",
+    "expo-status-bar": "~1.4.4",
+    "paho-mqtt": "^1.1.0",
+    "react": "18.2.0",
+    "react-native": "0.71.14",
+    "react-native-gesture-handler": "^3.0.0",
+    "zeromq": "^6.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-transform-private-methods": "^7.29.7"
+  }
+}

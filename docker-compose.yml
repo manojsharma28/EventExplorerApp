@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  android-emulator:
+    image: budtmo/docker-android-x86-11.0
+    privileged: true
+    shm_size: '2gb'
+    ports:
+      - "6080:6080"   # noVNC web UI
+      - "5554:5554"   # emulator console
+      - "5555:5555"   # adb
+    environment:
+      - DEVICE="Nexus 5"
+      - EMULATOR_ARGS=-no-window
+    volumes:
+      - android-data:/data
+
+volumes:
+  android-data:

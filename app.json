@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "main",
+    "displayName": "EventExplorer",
+    "slug": "events",
+    "version": "1.0.0",
+    "platforms": [
+      "android"
+    ],
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.example.eventexplorern"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "99d6a04f-d32d-4a5e-bdd4-2f114621bb51"
+      }
+    },
+    "owner": "manojtechs-organization"
+  }
+}

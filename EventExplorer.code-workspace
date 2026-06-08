@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../EventExplorer"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../EventExplorerPublisher"
+		}
+	],
+	"settings": {}
+}
